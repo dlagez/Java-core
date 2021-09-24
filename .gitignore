@@ -1,2 +1,4 @@
 .idea/
 ._README.md
+._*.md
+out/
