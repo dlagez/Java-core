@@ -30,6 +30,7 @@ public class Test6_flip {
 //        System.out.println("A position=" + charBuffer.position() + " limit=" + charBuffer.limit());
         // 将上面的语句使用flip替代
         charBuffer.flip();
+        System.out.println("A position=" + charBuffer.position() + " limit=" + charBuffer.limit());
 
         for (int i = 0; i < charBuffer.limit(); i++) {
             System.out.print(charBuffer.get());
