@@ -26,6 +26,10 @@ public class demo1_apple {
             }
         });
         System.out.println("redApples:" + redApples.toString());
+
+        // 使用lambda
+        List<Apple> results = filterApples(inventory, (Apple apple) -> "red".equals(apple.getColor()));
+        System.out.println(results);
     }
 
     // 直接在方法中实现功能呢，如果需求改变，编程使用重量来分类，需要把这个类复制，然后修改其中的一些方法。
@@ -62,7 +66,12 @@ public class demo1_apple {
         return result;
     }
 
-    // 使用匿名内部类
+    // 使用匿名内部类 见main函数
+
+    // 使用lambda 见main
+
+
+
     
     
 }
