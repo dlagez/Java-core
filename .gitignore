@@ -2,3 +2,4 @@
 ._README.md
 ._*.md
 out/
+*.obj
